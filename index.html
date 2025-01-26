@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/navbar.css" />
+    <link rel="stylesheet" href="src/footer.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <script defer src="src/app.js"></script>
+    <title>Quiz App</title>
+  </head>
+
+  <body>
+    <div class="navbar">
+      <h2><a href="index.html">Quiz App</a></h2>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <button id="theme-toggle" class="nav-button">Toggle Theme</button>
+      </div>
+    </div>
+    <main>
+      <div class="box">
+        <div id="timer" style="font-size: 1.5rem; color: #3498db; margin-bottom: 20px;">00:00</div>
+        <div class="progress-container">
+          <div class="progress-bar"></div>
+        </div>
+        <h1 class="Ques">Q1) What is Your Name?</h1>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option1"
+            value="a"
+            name="ques"
+          />
+          <label for="option1">a) Moazam</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option2"
+            value="b"
+            name="ques"
+          />
+          <label for="option2">b) Ali</label>
+        </div>
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option3"
+            value="c"
+            name="ques"
+          />
+          <label for="option3">c) Usman</label>
+        </div>
+
+        <div class="row">
+          <input
+            type="radio"
+            class="options"
+            id="option4"
+            value="d"
+            name="ques"
+          />
+          <label for="option4">d) Ammar</label>
+        </div>
+
+        <div class="row">
+          <button class="btn submit2">Prev</button>
+          <button class="btn2 submit">Submit</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="copyright">&#169; Syed Moazam Ali. All Rights Reserved.</div>
+      <div class="contact-section">
+        <p>Contact Us</p>
+        <div class="social-links">
+          <a href="https://github.com/MoazamAli45" target="_blank">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbs0AFL4hHvaEXtFXpNdD1bW_5JR0lfHR1uD2zjt8pOHf7ZcX6gqXeZGkKLtVjGv71NUY&usqp=CAU"
+              alt="GitHub"
+              class="social-icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/syedmoazamali/" target="_blank">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4As9PjnlK1rUewbtT1pDnIerPG67oFi-Vxg&s"
+              alt="LinkedIn"
+              class="social-icon"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script src="src/theme.js"></script>
+  </body>
+</html>
